@@ -77,3 +77,29 @@ class Actor(str, Enum):
     USER = "user"
     SYSTEM = "system"
     EXTERNAL = "external"
+
+
+class UIFieldType(str, Enum):
+    TEXT = "text"
+    EMAIL = "email"
+    PASSWORD = "password"
+    NUMBER = "number"
+    SELECT = "select"
+    MULTI_SELECT = "multi_select"
+    CHECKBOX = "checkbox"
+    DATE = "date"
+    DATETIME = "datetime"
+    TEXTAREA = "textarea"
+    FILE = "file"
+    HIDDEN = "hidden"
+
+class APIParamType(str, Enum):
+    STRING = "string"
+    INT = "int"
+    FLOAT = "float"
+    BOOL = "bool"
+    DATETIME = "datetime"
+    DATE = "date"
+    UUID = "uuid"
+    EMAIL = "email"
+
